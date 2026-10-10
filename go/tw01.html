@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>我的孩子24：孩子定位安心App</title>
+<meta property="og:title" content="我的孩子24 — 孩子定位安心App">
+<meta property="og:description" content="到校／補習班自動通知、查看孩子位置、孩子一鍵SOS。可先免費使用。">
+<meta property="og:image" content="https://seistar0326-svg.github.io/urikids24-media/go/icon.png">
+<script>
+(function () {
+  var PLAY = "https://play.google.com/store/apps/details?id=com.seistar.kidsfinder&referrer=aff_TW01&hl=zh_TW", IOS = "https://apps.apple.com/tw/app/id6808638670";
+  var ua = navigator.userAgent || "";
+  var isAndroid = /Android/i.test(ua);
+  var isIOS = /iPhone|iPad|iPod/i.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
+  if (isAndroid) location.replace(PLAY);
+  else if (isIOS) location.replace(IOS);
+})();
+</script>
+<style>
+  body { margin:0; min-height:100vh; display:flex; align-items:center; justify-content:center; background:#f4f6fc;
+         font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Noto Sans KR",sans-serif; color:#26304f; }
+  main { text-align:center; padding:32px 20px; max-width:360px; }
+  img { width:96px; height:96px; border-radius:22px; }
+  h1 { font-size:24px; margin:16px 0 6px; }
+  p { color:#5c6480; margin:0 0 24px; line-height:1.5; }
+  a { display:block; margin:10px 0; padding:15px; border-radius:14px; font-weight:700; text-decoration:none; }
+  .play { background:#26304f; color:#fff; } .ios { background:#fff; color:#26304f; border:2px solid #26304f; }
+</style>
+</head>
+<body>
+<main>
+  <img src="https://seistar0326-svg.github.io/urikids24-media/go/icon.png" alt="我的孩子24 圖示">
+  <h1>我的孩子24</h1>
+  <p>國小孩子的安心App<br>可先免費使用</p>
+  <a class="play" href="https://play.google.com/store/apps/details?id=com.seistar.kidsfinder&referrer=aff_TW01&hl=zh_TW">在 Google Play 下載</a>
+  <a class="ios" href="https://apps.apple.com/tw/app/id6808638670">在 App Store 下載</a>
+</main>
+</body>
+</html>
